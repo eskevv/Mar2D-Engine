@@ -40,13 +40,11 @@ bool Engine::Initialize()
 
 void Engine::Run()
 {
-   if (isRunning_) {
-      Setup();
-      while (isRunning_) {
-         Events();
-         Update();
-         Render();
-      }
+   Setup();
+   while (isRunning_) {
+      Events();
+      Update();
+      Render();
    }
 }
 
