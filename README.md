@@ -24,3 +24,4 @@ WIP 2D game engine based on SDL2 with scripting goals | extremely early in devel
   -- Lua support
   -- Level loader with lua 
   -- GUI
+  -- audio
