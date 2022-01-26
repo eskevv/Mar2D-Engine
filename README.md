@@ -4,6 +4,7 @@ WIP 2D game engine based on SDL2 with scripting goals | extremely early in devel
 #LIBS USED
   -- SDL2 for multi platform support window creation and event handling
   -- sol for lua scripting support (not fully implemented yet)
+  -- imgui a simple optimal GUI lib
   
 #WORKS:
   -- event dispatcher
@@ -22,3 +23,4 @@ WIP 2D game engine based on SDL2 with scripting goals | extremely early in devel
   -- physics components
   -- Lua support
   -- Level loader with lua 
+  -- GUI
