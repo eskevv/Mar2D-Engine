@@ -6,7 +6,8 @@ int main(int argc, char* argv[])
 
    if (engine.Initialize()) {
       engine.Run();
-      engine.Quit();
    }
+   engine.Quit();
+
    return 0;
 }

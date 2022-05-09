@@ -1,12 +1,11 @@
 #SOURCE FILES
-SOURCE := src/Game/*.cpp
-SOURCE += src/Engine/*.cpp
+SOURCE := src/Engine/*.cpp
 
+#HEADER FILES
+HEADERS := -Isrc/Engine
 
-#INCLUDE PATHS
-INCLUDES := -ID:/Dev/Libraries/include
-INCLUDES += -Isrc/Game
-INCLUDES += -Isrc/Engine
+#LIB INCLUDES
+LIB_INCLUDES := -ID:/Dev/Libraries/include
 
 #LIBRARY PATHS
 LIBPATHS := -LD:/Dev/Libraries/lib
@@ -20,6 +19,9 @@ FLAGS := -Wall -Wfatal-errors -std=c++17
 
 #PROGRAM
 FILE := engine
+
+#INCLUDED FILES
+INCLUDES := $(HEADERS) $(LIB_INCLUDES)
 
 #OUTPUT
 OBJ_NAME := bin/$(FILE)

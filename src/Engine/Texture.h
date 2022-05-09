@@ -9,16 +9,14 @@ class Texture
 public:
    Texture() = default;
    Texture(SDL_Renderer*, const std::string& path);
-   Texture(SDL_Texture* texture, int width, int height);
+   Texture(int width, int height, SDL_Texture* texture);
 
-   int GetWidth();
-   int GetHeight();
-   SDL_Texture* GetTexture();
+   int GetWidth() const;
+   int GetHeight() const;
+   SDL_Texture* GetTexture() const;
 
 private:
-   SDL_Texture* texture_{nullptr};
-   
-   int width_{0};
-   int height_{0};
+   int width_;
+   int height_;
+   SDL_Texture* texture_;
 };
-
