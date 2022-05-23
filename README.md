@@ -1,5 +1,5 @@
 # Mar2D-Engine
-WIP 2D game engine
+WIP 2D game engine using C++ and SDL2
 
 #LIBS USED
   -- SDL2 for multi platform support window creation and event handling
