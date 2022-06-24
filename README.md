@@ -1,6 +1,6 @@
 # Mar2D-Engine (uncontinued) - stored for reference 
 2D game engine using C++ and SDL2
-# I plan on coming back and remaking this from scratch with more game engine experience 
+### I plan on coming back and remaking this from scratch with more game engine experience 
 
 #LIBS USED
   -- SDL2 for multi platform support window creation and event handling
